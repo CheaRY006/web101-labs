@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!doctype html>
 <html lang="en">
 <head>
@@ -20,4 +21,28 @@ out.textContent = "You clicked at " + new Date().toLocaleTimeString();
 });
 </script>
 </body>
+=======
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Hello</title>
+<style>
+body { font-family: sans-serif; padding: 2rem; }
+button { padding: .5rem 1rem; }
+</style>
+</head>
+<body>
+<h1>Hello, Claude</h1>
+<button id="go">Click me</button>
+<p id="out"></p>
+<script>
+const btn = document.getElementById("go");
+const out = document.getElementById("out");
+btn.addEventListener("click", () => {
+out.textContent = "You clicked at " + new Date().toLocaleTimeString();
+});
+</script>
+</body>
+>>>>>>> d6e3aec1d5dcf05c876195756ad4720650ea3bc1
 </html>
